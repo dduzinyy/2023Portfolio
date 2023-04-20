@@ -1,0 +1,24 @@
+header {
+    margin-bottom: 20px;
+}
+.port--visual {
+    background-color: black;
+}
+.wrap {
+    max-width: 96%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: relative;
+}
+.wrap .port-img {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    
+}
+.wrap .port-img li img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    
+}
