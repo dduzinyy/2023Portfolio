@@ -12,25 +12,25 @@
     <meta property="og:type" content="website">
     <meta property="og:sitename" content="Designer Leesujin">
     <meta property="og:title" content="2023 Portfolio">
-    <meta property="og:description" content="스며드는 디자이너 이수진입니다.">
-    <meta property="og:image" content="/img/01.jpg">
-    <meta property="og:url" content="https://dduzinyy.github.io/2023Portfolio/">
+    <meta property="og:description" content="감성을 전달하는 디자이너 이수진입니다.">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
 
     <!-- https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started.html -->
     <meta property="twitter:card" content="summary">
     <meta property="twitter:site" content="Designer Leesujin">
     <meta property="twitter:title" content="2023 Portfolio">
-    <meta property="twitter:description" content="스며드는 디자이너 이수진입니다.">
-    <meta property="twitter:image" content="/img/01.jpg">
-    <meta property="twitter:url" content="https://dduzinyy.github.io/2023Portfolio/">
+    <meta property="twitter:description" content="감성을 전달하는 디자이너 이수진입니다.">
+    <meta property="twitter:image" content="">
+    <meta property="twitter:url" content="">
 
 
     <link href="https://fonts.googleapis.com/css2?family=Arapey:ital@1&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Noto+Sans+KR:wght@300&family=Work+Sans:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" media="all and (max-width: 1024px)" href="css/main_medium.css">
-    <link rel="stylesheet" media="all and (max-width: 760px)" href="css/main_small.css">
+    <link rel="stylesheet" media="all and (max-width: 768px)" href="css/main_small.css">
     <script defer src="main.js"></script>
 
 
@@ -44,36 +44,65 @@
 
             <div class="menu-group clearfix">
                 <div class="logo float--left">
-                    <a href="https://dduzinyy.github.io/2023Portfolio/" class="logo--show"></a>
+                    <a href="/" class="logo--show"></a>
                 </div>
 
-                <ul class="main-menu float--right">
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <!--<li><a href="portfolio.html">About</a></li>-->
-                    <li><a href="https://www.instagram.com/dduzinyy/" target="_blank">Instagram</a></li>
-                </ul>
-            </div> 
-
-        </div> 
-
-        
+                <div id="toggle-btn">
+                    <div id="burger"></div>
+                </div>
+            </div>
+        </div>       
     </header>
+
+    <!--Toggle menu-->
+    <nav class="toggle">
+        <div class="menu-group ">
+            <div class="slide">
+                <div class="intro-menu">
+                    <h1><a href="https://dduzinyy.github.io/2023Portfolio/">designer leesujins</a></h1>
+                    <p>여러 모양을 가진 디자이너 이수진입니다.</p>
+                </div>
+                <ul class="main-menu">
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="portfolio.html">PORTFOLIO</a></li>
+                    <li><a href="https://www.instagram.com/dduzinyy/" target="_blank">INSTARGRAM</a></li>
+                                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
 
     <!--Visual-->
     <section class="section section--visual">
         <div class="inner">
-            <div class="visual_img">visual</div>
+            <div class="text_a clearfix">
+                <div class="year_num float--left">(2023)</div>
+                <div class="portfolio float--righ">PORTFOLIO</div>
+            </div>
+
+            <ul class="text_b">
+                <li class="my--s"><a href="portfolio.html">My shape</a></li>
+                <li class="comma">, </li>
+                <li class="my--d"><a href="about.html">My design</a></li>
+            </ul>
         </div>
     </section>
 
     <!--Footer-->
-    <footer class="section">
-        <div class="inner">
-            <ul class="foot--menu">
-                <li>2023 DESIGN PORTFOLIO</li>
-                <li>dltnwls2150@naver.com</li>
-                <li>ⓒ 2023. Leesujin. All rights reserved.</li>
-            </ul>
+    <footer>
+        <div class="foot_inner">
+            <div class="foot--menu">
+                <ul class="foot--left">
+                    <li class="fa">A designer of<br>&nbsp;&nbsp;&nbsp;various shape.</li>
+                    <!--li><h3>MAIL</h3><br>dltnwls2150@naver.com</li>
+                    <li><h3>SOCIAL</h3><br>dduzinyy</li-->
+                </ul>
+                
+                <div class="foot--right"><h2>leesujin</h2><br>ⓒ 2023. Leesujin. All rights reserved.</div>
+            
+            </div>
         </div>
     </footer>
 
